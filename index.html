@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>OlTutur</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container header">
+                <nav class="header-row">
+                    <div class="logo-box">
+                        <a href="./index.html" class="logo-link link"><span class="logo-brand">Ol</span>Tutor</a>
+                    </div>
+                    <div class="nav-box">
+                        <ul class="header-list list">
+                            <li><a class="header-link link" href="#skills">Навички</a></li>
+                            <li><a class="header-link link" href="#about">Про мене</a></li>
+                            <li><a class="header-link link" href="#price">Ціни</a></li>
+                            <li><a class="header-link link" href="#contacts">Контакти</a></li>
+                        </ul>   
+                    </div>
+                    <button type="button" class="mobile-menu-open" data-menu-open>
+                        <svg class="mobile-menu-open-icon" width="32" height="22">
+                            <use href="./img/symbol-defs.svg#icon-burger"></use>
+                        </svg>
+                    </button>
+                </nav>
+                <div class="mobile-menu is-hidden" data-menu>
+                    <div class="header-mobile container">
+                        <div class="logo-box">
+                            <a href="./index.html" class="logo-link link"><span class="logo-brand">Ol</span>Tutor</a>
+                        </div>
+                        <button type="button" class="mobile-menu-open" data-menu-close>
+                            <svg class="mobile-menu-close-icon" width="32" height="22">
+                                <use href="./img/symbol-defs.svg#icon-close-modal"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <nav class="mobile-nav">
+                        <div class="nav-box-mobile">
+                            <ul class="header-list list">
+                                <li><a class="header-link link" href="#skills">Навички</a></li>
+                                <li><a class="header-link link" href="#about">Про мене</a></li>
+                                <li><a class="header-link link" href="#price">Ціни</a></li>
+                                <li><a class="header-link link" href="#contacts">Контакти</a></li>
+                            </ul>   
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- <div class="content"> -->
+                <section class="main-section container">
+                    <div class="main-content">
+                        <h1 class="main-title">Репетитор Англійської Мови Онлайн</h1>
+                        <p class="main-text">Заговори англійською без парт і нудних завдань. 100% уроку англійською.</p>
+                        <div class="btn">
+                            <button type="button" class="btn-link link" data-modal-open>Пробний урок</button>
+                        </div>
+                    </div>
+                    <div class="main-photo">
+                        <img
+                            srcset="./img/main-photo-554.png 554w, ./img/main-photo-1108.png 1108w, ./img/main-photo-300.png 300w, ./img/main-photo-600.png 600w"
+                            sizes="(min-width: 1200px) 554px, (max-width: 1199px) 300px" 
+                            src="./img/main-photo.png" 
+                            alt="Tutor photo"
+                        >
+                    </div>
+                    <div class="mobile-btn">
+                        <button type="button" class="btn-link link" data-modal-open>Пробний урок</button>
+                    </div>
+                </section>
+                <section id="skills" class="skills container">
+                    <div class="container-bg">
+                        <div class="skills-container">
+                            <h2 class="visually-hidden">Навички</h2>
+                            <div class="skills-text-box">
+                                <p class="skills-text">Будь певен, ми швидко прокачаємо твої <span class="skills-text-decor" lang="en">Skills</span></p>
+                            </div>
+                            <ul class="skills-list list">
+                                <li class="skills-images"><img srcset="./img/speaking-300.png 300w, ./img/speaking-425.png 425w, ./img/speaking-600.png 600w, ./img/speaking-850.png 850w" sizes="(min-width: 1200px) 425px, (max-width: 1199px) 300px" src="./img/speaking.png" alt="speaking"></li>
+                                <li class="skills-images"><img srcset="./img/reading-300.png 300w, ./img/reading-425.png 425w, ./img/reading-600.png 600w, ./img/reading-850.png 850w" sizes="(min-width: 1200px) 425px, (max-width: 1199px) 300px" src="./img/reading.png" alt="reading"></li>
+                                <li class="skills-images"><img srcset="./img/writing-300.png 300w, ./img/writing-425.png 425w, ./img/writing-600.png 600w, ./img/writing-850.png 850w" sizes="(min-width: 1200px) 425px, (max-width: 1199px) 300px" src="./img/writing.png" alt="writing"></li>
+                                <li class="skills-images"><img srcset="./img/listening-300.png 300w, ./img/listening-425.png 425w, ./img/listening-600.png 600w, ./img/listening-850.png 850w" sizes="(min-width: 1200px) 425px, (max-width: 1199px) 300px" src="./img/listening.png" alt="listening"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id="about" class="section about-me-section">
+                    <div class="about-me-container container">
+                        <div class="about-me-content">
+                            <h2 class="section-title">Про мене</h2>
+                            <p class="about-me-text">Я - Оля, ваш персональний репетитор. Для кожного учня складаю індивідуальну програму занять залежно від рівня та віку. Своїм маленьким досягненням вважаю отримання диплому CELTA, що змінило моє уявлення про викладання та роль вчителя на занятті. Тому від мене ви не почуєте довгих пояснень граматики та <span class="text-color" lang="en">Teacher Talking Time</span>. Практика та ще раз практика, і вже після кількох занять ви можете пояснювати граматику мені. Кожне заняття будуємо для вдосконалення ваших <span class="text-color" lang="en">Speaking, Listening, Reading, Writing skills</span>. За три роки досвіду викладання, можу запевнити Вас, що ви точно зламаєте мовний бар'єр і почнете говорити та думати англійською. На моїх заняттях я використовую <span class="text-color" lang="en">Communicative Approach</span>, що дозволяє вам поринути у мовне середовище дуже швидко, адже ми говоримо тільки англійською, навіть якщо ви тільки починаєте вивчати мову. Кожне знайомство зі студентом починаю з граматичного тесту та безкоштовного короткого заняття, на якому ми знайомимося та підбираємо вам необхідну програму. Перед початком занять я надаю безкоштовно всі необхідні матеріали та ресурси!</p>
+                        </div>
+                        <div class="about-me-photo-link">
+                            <picture>
+                                <source srcset="./img/about-me-580.png 1x, ./img/about-me-1160.png 2x" media="(min-width: 1200px)">
+                                <source srcset="./img/about-me-291.png 1x, ./img/about-me-582.png 2x" media="(min-width: 768px)">
+                                <source srcset="./img/about-me-300.png 1x, ./img/about-me-600.png 2x" media="(max-width: 767px)">
+                                <img class="about-me-photo" src="./img/about-me.png" alt="Tutur Olya photo">
+                            </picture>
+                            <div class="link-row">
+                                <a class="about-me-link link" target="_blank" rel="noopener noreferre nofollow" href="https://www.instagram.com/_l.o.r.a.n.a_/">
+                                    <svg width="44" height="44">
+                                        <use class="about-me-link-icon" href="./img/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                                <a class="about-me-link-text link" target="_blank" rel="noopener noreferre nofollow" href="https://www.instagram.com/_l.o.r.a.n.a_/">Відгуки в моєму Instagram</a>
+                            </div>
+                            <p class="about-me-text-mobile">Я - Оля, ваш персональний репетитор. Для кожного учня складаю індивідуальну програму занять залежно від рівня та віку. Своїм маленьким досягненням вважаю отримання диплому CELTA, що змінило моє уявлення про викладання та роль вчителя на занятті. Тому від мене ви не почуєте довгих пояснень граматики та <span class="text-color" lang="en">Teacher Talking Time</span>. Практика та ще раз практика, і вже після кількох занять ви можете пояснювати граматику мені. Кожне заняття будуємо для вдосконалення ваших <span class="text-color" lang="en">Speaking, Listening, Reading, Writing skills</span>. За три роки досвіду викладання, можу запевнити Вас, що ви точно зламаєте мовний бар'єр і почнете говорити та думати англійською. На моїх заняттях я використовую <span class="text-color" lang="en">Communicative Approach</span>, що дозволяє вам поринути у мовне середовище дуже швидко, адже ми говоримо тільки англійською, навіть якщо ви тільки починаєте вивчати мову. Кожне знайомство зі студентом починаю з граматичного тесту та безкоштовного короткого заняття, на якому ми знайомимося та підбираємо вам необхідну програму. Перед початком занять я надаю безкоштовно всі необхідні матеріали та ресурси!</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="price" class="section">
+                    <div class="container price-section">
+                        <h2 class="section-title price-title">Ціни</h2>
+                        <ul class="price-list list">
+                            <li class="price-list-item">
+                                <img srcset="./img/speaking-skills-300.jpg 300w, ./img/speaking-skills-400.jpg 400w, ./img/speaking-skills-600.jpg 600w, ./img/speaking-skills-800.jpg 800w" sizes="(min-width: 1200px) 400px, (max-width: 1199px) 300px" src="./img/speaking-skills.jpg" alt="price picture">
+                                <h3 class="price-list-title">speaking skills</h3>
+                                <p class="price-list-text">Два рази на тиждень теревенимо <span class="text-color" lang="en">only English</span> на різні теми, підібрані завчасно відносно Ваших вподобань та рівня англійської.</p>
+                                <div class="price-decor">
+                                    <span>600 грн.</span><span>за місяць</span>
+                                </div>
+                            </li>
+                            <li class="price-list-item">
+                                <img srcset="./img/standart-300.jpg 300w, ./img/standart-400.jpg 400w, ./img/standart-600.jpg 600w, ./img/standart-800.jpg 800w" sizes="(min-width: 1200px) 400px, (max-width: 1199px) 300px" src="./img/standart.jpg" alt="price picture">
+                                <h3 class="price-list-title">Стандарт</h3>
+                                <p class="price-list-text"><span class="text-color" lang="en">Speaking Skills</span> + <span class="text-color">1 додатковий урок</span> на тиждень для перевірки та обговорення домашніх завдань</p>
+                                <div class="price-decor">
+                                    <span>800 грн.</span><span>за місяць</span>
+                                </div>
+                            </li>
+                            <li class="price-list-item">
+                                <img srcset="./img/turbo-300.jpg 300w, ./img/turbo-400.jpg 400w, ./img/turbo-600.jpg 600w, ./img/turbo-800.jpg 800w" sizes="(min-width: 1200px) 400px, (max-width: 1199px) 300px" src="./img/turbo.jpg" alt="price picture">
+                                <h3 class="price-list-title">Турбо</h3>
+                                <p class="price-list-text">Для швидкого занурення у світ <span class="text-color" lang="en">English Language</span> - зустрічаємося 5 разів на тиждень, програма підбирається індивідуально.</p>
+                                <div class="price-decor">
+                                    <span>1600 грн.</span><span>за місяць</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="contacts" class="section contact-section">
+                    <div class="container contact-row">
+                        <div class="contact-content">
+                            <h2 class="section-title">Контакти</h2>
+                            <p class="contact-text-top">Для запису на пробний урок, безкоштовної консультації та тесту з визначення рівня англійської Ви можете: зателефонувати або написати в Telegram, Viber чи Instagram. </p>
+                            <p class="contact-text-bottom">Прокачаємо Ваші <span class="text-color" lang="en">Skills</span> разом!</p>
+                            <div class="btn-active">
+                                <div class="mobile-btn">
+                                    <button type="button" class="btn-link link" data-modal-open>Пробний урок</button>
+                                </div>
+                                <div class="btn">
+                                    <button type="button" class="btn-link link" data-modal-open>Пробний урок</button>
+                                </div>
+                                <svg class="fly-icon" width="54" height="38">
+                                    <use href="./img/symbol-defs.svg#icon-fly"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <img class="contacts-image" srcset="./img/contacts-300.png 300w, ./img/contacts-494.png 494w, ./img/contacts-600.png 600w, ./img/contacts-988.png 988w" sizes="(min-width: 1200px) 494px, (max-width: 1199px) 300px" src="./img/contact-photo.png" alt="Tutur Olya photo" class="contant-photo">
+                    </div>
+                </section>
+                <footer class="footer">
+                    <div class="container footer-container">
+                        <div class="footer-logo-social-links">
+                            <div class="logo-box">
+                                <a href="./index.html" class="logo-link link"><span class="logo-brand">Ol</span>Tutor</a>
+                            </div>
+                            <ul class="list footer-social-links">
+                                <li>
+                                    <a class="social-link" target="_blank" rel="noopener noreferre nofollow" href="https://www.instagram.com/_l.o.r.a.n.a_/">
+                                        <svg width="24" height="24">
+                                            <use class="social-link-icon" href="./img/symbol-defs.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="social-link" target="_blank" rel="noopener noreferre nofollow" href="https://www.facebook.com/profile.php?id=100009323857530">
+                                        <svg width="24" height="24">
+                                            <use class="social-link-icon" href="./img/symbol-defs.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="social-link" target="_blank" rel="noopener noreferre nofollow" href="https://www.linkedin.com/in/olha-levchenko-73b56b23a/">
+                                        <svg width="24" height="24">
+                                            <use class="social-link-icon" href="./img/symbol-defs.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-contact">
+                            <ul class="list">
+                                <li class="footer-contact-item">
+                                    <svg width="24" height="24">
+                                        <use class="footer-contact-icon" href="./img/symbol-defs.svg#icon-location"></use>
+                                    </svg>
+                                    <a class="footer-contact-link link" target="_blank" rel="noopener noreferre nofollow" href="https://goo.gl/maps/nbGnBT7ZreRPga6dA">Вулиця Ніжинська, 29В, Київ, 02000
+                                    </a>
+                                </li>
+                                <li class="footer-contact-item">
+                                    <svg width="24" height="24">
+                                        <use class="footer-contact-icon" href="./img/symbol-defs.svg#icon-phone"></use>
+                                    </svg>
+                                    <a class="footer-contact-link link" href="tel:+380986784703">+38 098 678 47 03
+                                    </a>
+                                </li>
+                                <li class="footer-contact-item">
+                                    <svg width="24" height="24">
+                                        <use class="footer-contact-icon" href="./img/symbol-defs.svg#icon-mail"></use>
+                                    </svg>
+                                    <a class="footer-contact-link link" href="mailto:olya.oltutur@gmail.com">olya.oltutur@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </main>
+    </div>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal-window">
+            <button class="modal-close-btn" type="button" data-modal-close>
+                <svg width="8" height="8">
+                    <use class="modal-close-icon" href="./img/symbol-defs.svg#icon-close-modal"></use>
+                </svg>
+            </button>
+            <p class="modal-main-text">Залиш свої контакти - і я тобі зателефоную</p>
+            <form class="modal-form">
+                <label class="modal-form-label">
+                    <span class="modal-form-desc">Ім'я</span>
+                    <span class="modal-form-input-wrapper">
+                        <input name="user-name" type="text" class="modal-form-input" minlength="3" placeholder="Твоє м'я*" required>
+                        <svg class="modal-form-input-icon" width="18" height="18">
+                            <use href="./img/symbol-defs.svg#icon-modal-name"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-label">
+                    <span class="modal-form-desc">Телефон</span>
+                    <span class="modal-form-input-wrapper">
+                        <input name="user-tel" type="tel" class="modal-form-input" placeholder="Твій номер телефону*" required>
+                        <svg class="modal-form-input-icon" width="18" height="24">
+                            <use href="./img/symbol-defs.svg#icon-modal-tel"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-form-label">
+                    <span class="modal-form-desc">E-mail</span>
+                    <span class="modal-form-input-wrapper">
+                        <input name="user-email" type="email" class="modal-form-input" placeholder="Твоя електронна пошта">
+                        <svg class="modal-form-input-icon" width="18" height="24">
+                            <use href="./img/symbol-defs.svg#icon-modal-email"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label>
+                    <span class="modal-form-desc">Коментар</span>
+                    <textarea class="modal-form-textarea" name="feedback" placeholder="Напиши свій коментар тут..."></textarea>
+                </label>
+                <button class="modal-form-btn-submit" type="submit">Відправити</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
